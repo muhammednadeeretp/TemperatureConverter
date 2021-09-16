@@ -48,7 +48,7 @@ afterEvaluate {
                     licenses {
                         license {
                             name = 'Apache License'
-                            url = 'https://github.com/GetStream/stream-chat-android/blob/main/LICENSE'
+                            url = 'https://github.com/muhammednadeeretp/TemperatureConverter/blob/master/LICENSE'
                         }
                     }
                     developers {
