@@ -45,12 +45,12 @@ afterEvaluate {
                     name = PUBLISH_ARTIFACT_ID
                     description = 'Temperature converter Android SDK'
                     url = 'https://github.com/muhammednadeeretp/TemperatureConverter'
-                    /*licenses {
+                    licenses {
                         license {
-                            name = 'Stream License'
+                            name = 'Apache License'
                             url = 'https://github.com/GetStream/stream-chat-android/blob/main/LICENSE'
                         }
-                    }*/
+                    }
                     developers {
                         developer {
                             id = 'muhammed.nadeer'
