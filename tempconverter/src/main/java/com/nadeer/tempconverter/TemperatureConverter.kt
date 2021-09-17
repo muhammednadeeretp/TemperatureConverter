@@ -1,8 +1,5 @@
 package com.nadeer.tempconverter
 
-import android.content.Context
-import com.saranya.network.networkstatus.NetworkState
-
 object TemperatureConverter {
 
     fun celsiusToFahrenheit(celsius: Double) = celsius * 9 / 5 + 32
@@ -18,8 +15,4 @@ object TemperatureConverter {
     fun kelvinToCelsius(kelvin: Double) = kelvin - 273.15
 
     fun kelvinToFahrenheit(kelvin: Double) = (kelvin - 273.15) * 9 / 5 + 32
-
-    fun isInternetAvailable(context: Context): Boolean {
-        return NetworkState().isConnectedToInternet(context)
-    }
 }

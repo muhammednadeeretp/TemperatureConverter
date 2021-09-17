@@ -18,7 +18,5 @@ class MainActivity : AppCompatActivity() {
         Log.d(TAG, "FahrenToKelvin: " + TemperatureConverter.fahrenheitToKelvin(10.0))
         Log.d(TAG, "KelvinToCel: " + TemperatureConverter.kelvinToCelsius(10.0))
         Log.d(TAG, "KelvinToFahren: " + TemperatureConverter.kelvinToFahrenheit(10.0))
-
-        Log.d(TAG, "IsNetAvailable: " + TemperatureConverter.isInternetAvailable(this))
     }
 }
